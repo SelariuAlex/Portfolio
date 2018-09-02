@@ -419,14 +419,14 @@ nav {
   margin-top: 20px;
   padding: 10px 20px;
   background: transparent;
-  border: 2px solid #fec601;
-  color: #fec601;
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
   font-size: 20px;
 }
 
 .back-text button:hover {
-  color: #ea7317;
-  border: 2px solid #ea7317;
+  color: var(--orange);
+  border: 2px solid var(--orange);
 }
 
 .service-item:hover .front-text {
