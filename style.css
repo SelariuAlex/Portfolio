@@ -456,3 +456,62 @@ nav {
     order: 3;
   }
 }
+
+/* #################blogs########################## */
+.flexbox-parent {
+  max-width: 95vw;
+  margin: 2rem auto;
+}
+
+.blog__photo-img {
+  width: 100%;
+  display: block;
+}
+.blog__info-title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin: 1rem 0 0.1rem 0;
+}
+.blog__info-underline {
+  width: 3rem;
+  height: 0.3rem;
+  background: var(--lightblue);
+  margin-bottom: 1rem;
+}
+.blog__info-text {
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .blog {
+    margin: 0;
+  }
+  .blog__info,
+  .blog__photo {
+    flex: 0 0 50%;
+  }
+  .blog__info {
+    align-self: center;
+    padding: 0 2rem;
+  }
+  .blog--reverse {
+    flex-direction: row-reverse;
+  }
+  .blog__info-text {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .blog__info-text {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flexbox-parent--medium {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
