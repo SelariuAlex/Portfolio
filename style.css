@@ -26,7 +26,7 @@ body {
   flex-wrap: wrap;
   text-transform: uppercase;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 2rem;
 }
 
@@ -305,7 +305,7 @@ nav {
 .skills-item p {
   width: 80%;
   margin: 0 auto;
-  color: gray;
+  color: var(--grey);
 }
 
 @media screen and (min-width: 576px) {
@@ -351,12 +351,6 @@ nav {
   overflow: hidden;
   position: relative;
   padding: 60px;
-}
-
-.service-item .fab {
-  font-size: 100px;
-  margin-bottom: 30px;
-  text-shadow: 3px 3px black;
 }
 
 .service-item .fa-html5 {
@@ -457,7 +451,7 @@ nav {
   }
 }
 
-/* #################blogs########################## */
+/* ################# interests ########################## */
 .flexbox-parent {
   max-width: 95vw;
   margin: 2rem auto;
@@ -480,6 +474,7 @@ nav {
 }
 .blog__info-text {
   line-height: 1.5;
+  color: var(--grey);
 }
 
 @media screen and (min-width: 768px) {
