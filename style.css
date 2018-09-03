@@ -515,7 +515,7 @@ nav {
 
 .about-image {
   min-height: 80vh;
-  background: url(img/me2.jpg) center/cover fixed no-repeat;
+  background: url(img/me.jpeg) center/cover fixed no-repeat;
 }
 
 .about-text {
@@ -539,7 +539,7 @@ nav {
 }
 
 .about-text-underline {
-  width: 200px;
+  width: 60px;
   height: 5px;
   background: var(--lightblue);
 }
