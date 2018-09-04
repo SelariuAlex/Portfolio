@@ -638,17 +638,17 @@ nav {
   color: var(--white);
 }
 
-.image-overlay .fa {
-  font-size: 30px;
-  color: #2b98f0;
+.image-overlay .fa-arrow-right {
+  font-size: 3rem;
+  color: var(--lightblue);
   padding: 10px;
   background: #f5f5f5;
   border-radius: 50%;
-  transition: transform 2s ease, background 2s ease;
+  transition: transform 1s ease, background 1s ease;
 }
 
-.image-overlay .fa:hover {
-  transform: translateY(-10px);
+.image-overlay .fa-arrow-right:hover {
+  transform: translatex(0.5rem);
   background: #082238;
 }
 
