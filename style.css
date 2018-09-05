@@ -665,3 +665,21 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* ################## footer ############## */
+
+footer {
+  background-color: #bdbdbd;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #292f36;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
