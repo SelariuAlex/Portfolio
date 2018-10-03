@@ -30,10 +30,6 @@ body {
   margin: 2rem;
 }
 
-.section__title-text {
-  align-self: center;
-}
-
 .section__title-special {
   background: var(--lightblue);
   color: var(--white);
@@ -474,6 +470,7 @@ nav {
 }
 .blog__info-text {
   line-height: 1.5;
+  text-indent: 1rem;
   color: var(--grey);
 }
 
