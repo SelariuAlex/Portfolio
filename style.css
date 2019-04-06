@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root {
   --black: #212121;
@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Section title */
@@ -149,7 +149,7 @@ body {
 
 header {
   min-height: 100vh;
-  background: url("img/css.jpeg") center/cover fixed no-repeat;
+  background: url('img/css.jpeg') center/cover fixed no-repeat;
   display: flex;
   flex-direction: column;
 }
@@ -610,6 +610,7 @@ nav {
 .about-image {
   min-height: 80vh;
   background: url(img/me.jpeg) center/cover fixed no-repeat;
+  display: none;
 }
 
 .about-text {
@@ -670,6 +671,7 @@ nav {
   .about-image {
     flex: 0 0 70%;
     clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    display: flex;
   }
   .about {
     background: var(--black);
