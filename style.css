@@ -609,7 +609,7 @@ nav {
 
 .about-image {
   min-height: 80vh;
-  background: url(img/me.jpeg) center/cover fixed no-repeat;
+  background: url(img/cv.jpg) center/cover fixed no-repeat;
   display: none;
 }
 
@@ -670,7 +670,7 @@ nav {
   }
   .about-image {
     flex: 0 0 70%;
-    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
     display: flex;
   }
   .about {
