@@ -702,13 +702,14 @@ nav {
   color: var(--lightblue);
   padding: 15px 10px;
   border: 3px solid var(--lightblue);
-  transition: border 1s ease, background 1s ease, color 1s ease;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+  transition: all 0.2s;
 }
 
-.about-text a:hover {
-  color: #191919;
-  background: var(--lightblue);
-  border-color: #f5f3f5;
+.about-text a:active {
+  transform: translateY(3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
 }
 
 @media screen and (min-width: 776px) {
