@@ -579,6 +579,12 @@ nav {
   bottom: 0;
 }
 
+.service-item__subtitle {
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
 @media screen and (min-width: 776px) {
   .services-container {
     display: grid;
