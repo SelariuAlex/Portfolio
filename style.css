@@ -835,6 +835,12 @@ nav {
   }
 }
 
+/* ############## projects ################ */
+
+.projects__container {
+  padding-top: 7rem;
+}
+
 /* ################## footer ############## */
 
 footer {
