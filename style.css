@@ -76,6 +76,10 @@ body {
   height: 13rem;
 }
 
+.display__projects {
+  height: 20rem;
+}
+
 .nav__links-link {
   display: block;
   padding: 1rem;
@@ -126,7 +130,7 @@ body {
 }
 
 .nav-container {
-  padding: 0 20px;
+  padding: 0 15px;
   background: var(--white);
   border-bottom: 5px solid var(--lightblue);
   display: flex;
@@ -161,6 +165,7 @@ header {
 
 nav {
   flex: 0 0 auto;
+  border-bottom: 2px solid var(--lightblue);
 }
 
 .banner {
@@ -265,8 +270,9 @@ nav {
     flex: 1 0 auto;
     background: transparent;
     height: 4rem;
-    display: flex !important;
+    display: flex;
     justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     align-self: center;
   }
@@ -833,12 +839,6 @@ nav {
   .portfolio-center {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-/* ############## projects ################ */
-
-.projects__container {
-  padding-top: 7rem;
 }
 
 /* ################## footer ############## */
