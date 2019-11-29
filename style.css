@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 :root {
   --black: #212121;
@@ -10,6 +10,10 @@
   --lightblue: #03a9f4;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +21,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Section title */
@@ -158,7 +162,7 @@ body {
 
 header {
   min-height: 100vh;
-  background: url('img/css.jpeg') center/cover fixed no-repeat;
+  background: url("img/css.jpeg") center/cover fixed no-repeat;
   display: flex;
   flex-direction: column;
 }
@@ -537,8 +541,8 @@ nav {
 
 .service-item-white {
   background: linear-gradient(
-    rgba(206, 208, 206, 0.3),
-    rgba(206, 208, 206, 0.3)
+    rgba(206, 208, 206, 0.4),
+    rgba(206, 208, 206, 0.4)
   );
   color: black;
 }
@@ -550,7 +554,6 @@ nav {
 
 .back-text {
   position: absolute;
-  bottom: -17em;
   width: 75%;
   margin: 0 auto;
   height: 100%;
@@ -577,11 +580,11 @@ nav {
   border: 2px solid var(--orange);
 }
 
-.service-item:hover .front-text {
+.service-item .front-text {
   transform: translateY(-250px);
 }
 
-.service-item:hover .back-text {
+.service-item .back-text {
   bottom: 0;
 }
 
@@ -608,6 +611,21 @@ nav {
   }
   .services-container .service-item:nth-of-type(4) {
     order: 3;
+  }
+
+  .service-item .front-text {
+    transform: translateY(0);
+  }
+
+  .service-item .back-text {
+    bottom: -17em;
+  }
+  .service-item:hover .back-text {
+    bottom: 0;
+  }
+
+  .service-item:hover .front-text {
+    transform: translateY(-250px);
   }
 }
 
