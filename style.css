@@ -73,7 +73,7 @@ body {
   background: var(--white);
   height: 0;
   overflow: hidden;
-  transition: all 1s linear;
+  transition: all 0.5s linear;
 }
 
 .display {
@@ -99,7 +99,7 @@ body {
   padding-left: 2rem;
 }
 
-.social__icons {
+.social__icons--nav {
   display: none;
 }
 
@@ -126,7 +126,6 @@ body {
 .fa-github-square {
   color: #333;
   font-size: 1.5rem;
-  margin-right: 4rem;
 }
 
 .social__icons-link:hover {
@@ -302,6 +301,7 @@ nav {
     justify-content: space-around;
     list-style-type: none;
     padding: 0 20px;
+    margin-right: 2rem;
   }
 
   .bannerCard {
@@ -863,15 +863,22 @@ nav {
 
 footer {
   background-color: var(--lightgrey);
-  padding: 20px;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: baseline;
 }
 
 .footer-text {
-  font-size: 18px;
-  color: var(--black);
-  margin: 1rem;
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .footer-text {
+    display: inline-block;
+    font-size: 18px;
+    color: var(--black);
+    margin: 0.5rem 2.5rem;
+  }
 }
